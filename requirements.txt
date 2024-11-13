@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+scapy
+python-nmap
+paramiko
+colorama
+pysocks
+urllib3
+dnspython
+flask
