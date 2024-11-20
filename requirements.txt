@@ -1,4 +1,5 @@
 requests
+pyfiglet
 beautifulsoup4
 scapy
 python-nmap
