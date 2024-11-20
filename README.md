@@ -28,15 +28,16 @@ This setup script is beginner-friendly, easy to understand, and covers essential
 
 ### Optional Tools
 After running EvilFeonix Basic, you can manually install:
+
 1. **Metasploit Framework**:
-	pkg install unstable-repo
-	pkg install metasploit
+	- pkg install unstable-repo
+	- pkg install metasploit
 
 ## Project Structure for EvilFeonix Basic
-EvilFeonix-Basic/
-	setup_basic.py - the main installation script (named to reflect the “basic” version)
-	requirements.txt - list of Python packages for installation
-	README.md - optional documentation file describing the project
+`EvilFeonix-Basic`/
+	- setup_basic.py - the main installation script (named to reflect the “basic” version)
+	- requirements.txt - list of Python packages for installation
+	- README.md - optional documentation file describing the project
 
 ## Installation and Running EvilFeonix Basic 
 ```
