@@ -81,8 +81,7 @@ def start_banner():
 \t      v[{green}{version[:-2]}{stop}]\t\t██████╔╝██║  ██║███████║██║╚██████╗ 
 \t\t\t\t╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝\n"""
     print(logo)
-    slow(f"{red}")
-    slow("="*60)
+    slow("============================================================")
 
 
 
@@ -154,16 +153,15 @@ def all_in_0ne():
 def main():
     os.system("clea" + "r || cls"),start_banner()
     net=internet()
-    if net:
-    # if not net:
+    if not net:
         time.sleep(1)
         slow(f"\n{error}Please check ur internet connection{stop}")
         os.sys.exit()
     try:
-        slow(""f"\n\t{first}Start Program\n\t{second}About\n\t{third}Exit\n""")
+        slow(""f"\n\t{first}About EvilFeonix Basic\n\t{second}Run EvilFeonix Basic\n\t{third}Exit\n""")
         opt=input(""f"{green}[{stop}SELECT OPTION..{green}] {blue}:>>{purple} """)
-        if opt in["1","01","a","A"]:all_in_0ne()
-        elif opt in["2","02","b","B"]:aboutus()
+        if opt in["1","01","a","A"]:aboutus()
+        elif opt in["2","02","b","B"]:all_in_0ne()
         elif opt in["3","03","c","C"]:slow(f"\n{error}Thanks for using our tool.{stop}"),os.sys.exit()
         else:load(f"\n{error}Invali Option!{stop}"),main()
     except KeyboardInterrupt:slow(f"\n\n{error}User Requested an Interrupt!{stop}"),load(f"{error}Program Running Down!{stop}"),os.sys.exit()
