@@ -1,5 +1,4 @@
 requests
-pyfiglet
 beautifulsoup4
 scapy
 python-nmap
@@ -9,3 +8,5 @@ pysocks
 urllib3
 dnspython
 flask
+pyfiglet
+echo -e "requests\nbeautifulsoup4\nscapy\npython-nmap\nparamiko\ncolorama\npysocks\nurllib3\ndnspython\nflask" > requirements.txt
