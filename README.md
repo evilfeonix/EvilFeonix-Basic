@@ -1,5 +1,5 @@
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg) 
-![GNU General Public License v3.0](https://github.com/evilfeonix/EvilFeonix-Basic/blob/main/basic_setup.png)
+![EvilFeonix Basic v1.0](https://github.com/evilfeonix/EvilFeonix-Basic/blob/main/basic_setup.png)
 # EvilFeonix Basic
 A beginner hacker setup in Termux can be useful, especially with a focus on installing commonly used packages and tools for network and web security tasks.
 **EvilFeonix Basic**, a basic Python script that aimed at beginners starting with gray hat hacking in Termux. **EvilFeonix Basic** install essential Python libraries and Termux packages, giving you a foundational toolkit for exploring network security and gray hat hacking.
@@ -34,9 +34,17 @@ EvilFeonix-Basic/
 ## Installation and Running EvilFeonix Basic 
 ```
 apt update && apt upgrade
+```
+```
 apt install git
+```
+```
 git clone https://github.com/evilfeonix/EvilFeonix-Basic.git
+```
+```
 cd EvilFeonix-Basic
+```
+```
 python3 setup_basic.py
 ```
 This script will automatically:
