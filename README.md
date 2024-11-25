@@ -35,9 +35,9 @@ After running EvilFeonix Basic, you can manually install:
 
 ## Project Structure for EvilFeonix Basic
 `EvilFeonix-Basic`/
-	- setup_basic.py - the main installation script (named to reflect the “basic” version)
-	- requirements.txt - list of Python packages for installation
-	- README.md - optional documentation file describing the project
+- setup_basic.py - the main installation script (named to reflect the “basic” version)
+- requirements.txt - list of Python packages for installation
+- README.md - optional documentation file describing the project
 
 ## Installation and Running EvilFeonix Basic 
 ```
@@ -67,7 +67,7 @@ This script will automatically:
 ### License
 
 [GNU General Public License v3.0](https://github.com/evilfeonix/EvilFeonix-Basic/blob/main/LICENSE)
-
+<!-- 
 ### Follow Us
 website: https://www.evilfeonix.com
 
@@ -75,4 +75,4 @@ web-blog: https://www.evilfeonix.com/blog
 
 youtube: https://www.youtube.com/@3V1LF30N1X
 
-linkedin: https://www.evilfeonix.com/evilfeonix
+linkedin: https://www.evilfeonix.com/evilfeonix -->
