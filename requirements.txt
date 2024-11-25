@@ -1,12 +1,11 @@
-requests
-beautifulsoup4
+nmap
 scapy
-python-nmap
-paramiko
-colorama
+flask
 pysocks
 urllib3
-dnspython
-flask
+colorama
+paramiko
 pyfiglet
-echo -e "requests\nbeautifulsoup4\nscapy\npython-nmap\nparamiko\ncolorama\npysocks\nurllib3\ndnspython\nflask" > requirements.txt
+requests
+dnspython
+beautifulsoup4
